@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Telemedicine Application</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Telemedicine App</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </header>
+    <main>
+        <section class="content">
+            <h1>Welcome to Telemedicine</h1>
+            <p>Your health is our priority. Access medical advice anytime, anywhere.</p>
+            
+
+        </section>
+        <aside class="sidebar">
+            <h2>Additional Information</h2>
+            <p><input type="text" placeholder="Search..."></p>
+            <p><a href="#https://www.pinterest.com/pin/585468020339234815/">Link 1</a></p>
+            <p><a href="#link2">Link 2</a></p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 Telemedicine App | <a href="#social">Social Media Links</a> | Contact: info@telemedicineapp.com</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
